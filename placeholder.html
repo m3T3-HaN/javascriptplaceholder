@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>JS PlaceHolder Manager</title>
+  <script type="text/javascript"></script>
+</head>
+<body>
+  <h2>JavaScript PlaceHolder</h2>
+  <form onsubmit="return false;">
+  <input type="text" placeholder="Username" />
+  <br/>
+  <input type="password" placeholder="Password" />
+  <br/>
+  <input type="email" placeholder="E-Mail Address" />
+  <br/>
+  <input type="number" placeholder="Phone Number" />
+  <br/>
+  <input type="text" class="no place holder" />
+  <br/>
+  <div style="display:flex;justify-content:space-between;">
+    <input type="button" value="send data"/>
+    <input type="button" value="clear form" onclick="this.parentNode.parentNode.reset()"/>
+  </div>
+  </form>
+</body>
+</html>
